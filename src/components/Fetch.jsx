@@ -1,9 +1,9 @@
-import styled from "styled-components";
+
 import React from 'react'
 import axios from 'axios'
 import { useEffect } from 'react'
+import Owner from './Owner'
 // fetch https://api.jsonbin.io/b/6087d9c3f6655022c46d0b41 and render the data
-
 
 
 function Fetch() {
@@ -24,7 +24,7 @@ function Fetch() {
         <div>
              {/* foreach array in data show image */}
                 {data.map(item => (
-                    <> <h1> {item.owner.name} </h1><img src={item.img} alt={item.name} /><h2> The dogs breed is {item.breed} </h2></>
+                    <Owner key={item.id} Item={item} />
                 ))}
                
         </div>
@@ -37,22 +37,7 @@ function Fetch() {
 
 export default Fetch
 
-const Section = styled.section`
-    background: #fafafa;
-    padding: 2rem;
-    border-radius: 1rem;
-    margin: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    `;
+
     
 
 
