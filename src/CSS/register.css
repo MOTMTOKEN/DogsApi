@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  #link-container {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    
+    
+  }
+
+  .dog-name{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+
+  
+  .dog-img {
+    margin-top: 2%; 
+    max-width:80%;
+    height: 70%;
+    border: 1px solid #f8fafa;
+    border-radius: 5px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    
+  
+  }
+
+  
+ div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #1E0555;
+
+    }
+
+  

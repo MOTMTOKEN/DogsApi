@@ -1,0 +1,65 @@
+
+
+.dog-Info {
+    width: 87%;
+    height: 70%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin : 0 auto;
+      
+      
+}
+
+.dog-image {
+    width: 100%;
+    height: 500px;
+    border: 1px solid #f8fafa;
+    border-radius: 5px;
+    flex-flow: column;
+    object-fit: cover;
+}
+
+.text-dog {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+    background-color: hsl(192, 69%, 70%);
+    border-radius: 20px;
+    padding: 10px;
+    border: 5px solid #f8fafa;
+   
+}
+
+.dog-name {
+    margin-bottom: 50px;
+}
+
+.dog-breed {
+    margin-bottom: 50px;
+}
+
+.dog-age {
+    margin-bottom: 50px;
+}
+
+

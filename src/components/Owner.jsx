@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import Info from './Info';
+import '../CSS/register.css'
 
 function Owner( {dogs}) {
   
@@ -17,9 +18,12 @@ function Owner( {dogs}) {
 
           
 
-          } }  >
-        <h1> {dog.owner.name}  {dog.owner.lastName} </h1> 
-        <h3> Owners number is; {dog.owner.phoneNumber} </h3>
+          } } id="link-container" >
+        
+        
+        <img src={dog.img} alt="Picture of a dog" className="dog-img" />  
+                <p className="dog-name">{dog.name}</p>
+                
         </Link>
           
       </div>
