@@ -8,6 +8,23 @@
   margin: 0;
 }
 
+.welcome {
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
+  flex-direction: column;
+  align-self: flex-start;
+  margin-top: 100px;
+  margin-left: 50px;
+}
 
+.intro {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  margin-top: 500px;
+  height: 100vh;
+  margin-right: 200px;
 
+}
 
